@@ -11,19 +11,94 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 400px 0;
+  padding: 300px 0;
   color: white;
 }
 .head a {
   text-decoration: none;
   color: white;
   letter-spacing: 4px;
+  filter: blur(0.5px);
   transition: all 0.4s ease-in-out;
 }
 .head a:hover {
   color: rgb(190, 190, 190);
+  filter: blur(1px);
 }
 .appear {
   opacity: 0;
   transition: 1s opacity;
+}
+.head-main {
+  background-image: linear-gradient(
+      rgba(30, 230, 47, 0.4),
+      rgba(6, 102, 6, 0.6)
+    ),
+    url("media/beam.gif");
+  filter: contrast(4);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 20px 0;
+  color: white;
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+.menu {
+  text-align: center;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 0 5px 0 5px;
+}
+.active {
+  text-decoration: underline !important;
+}
+.menu a:hover {
+  filter: blur(1px);
+  text-decoration: underline !important;
+}
+.products {
+  text-align: center;
+}
+.items {
+  opacity: 0;
+  transition: 3s opacity;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.product-img {
+  filter: contrast(100%) !important;
+  width: 300px;
+  padding: 5px 70px 5px 70px;
+}
+.product-img:hover {
+  opacity: 0.5;
+}
+.product-link {
+  color: white;
+  text-decoration: none;
+}
+.product-link:hover {
+  text-decoration: underline;
+}
+.license {
+  text-align: center;
+  padding-top: 40px;
+}
+.credits {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.credits a {
+  color: white;
+  text-decoration: none;
+}
+.credits a:hover {
+  text-decoration: underline;
 }

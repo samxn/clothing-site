@@ -5,6 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="head-main">
+      <img class="logo" src="media/logo.gif" alt="logo" />
+      <div class="menu">
+        <a href="#" class="active">SHOP</a>
+        <a href="#">CONTACT</a>
+      </div>
+      <div>
+        <h1 class="products">Products</h1>
+        <div class="items" id="items">
+          <div>
+            <a href="#">
+              <img src="media/product1.png" alt="product1" class="product-img"
+            /></a>
+            <a href="#" class="product-link">
+              <p>Gunna Bootleg Vintage T-Shirt</p></a
+            >
+            <p>$34.95</p>
+          </div>
+
+          <div>
+            <a href="#">
+              <img src="media/product2.png" alt="product2" class="product-img"
+            /></a>
+            <a href="#" class="product-link">
+              <p>"Carl Johnson" Bootleg Vintage T-Shirt</p></a
+            >
+            <p>$34.95</p>
+          </div>
+
+          <div>
+            <a href="#">
+              <img src="media/product3.png" alt="product3" class="product-img"
+            /></a>
+            <a href="#" class="product-link">
+              <p>Mac Miller Crazy Hair Tee</p></a
+            >
+            <p>$34.95</p>
+          </div>
+        </div>
+      </div>
+      <div class="license">
+        <p>© 2023, Your logo</p>
+      </div>
+      <footer class="credits">
+        <a href="https://github.com/samxn"><small>Site by Samin</small></a>
+      </footer>
+    </div>
+
+    <script>
+      window.onload = function () {
+        window.setTimeout(fadeIn, 700); //.7 seconds
+      };
+
+      function fadeIn() {
+        document.getElementById("items").style.opacity = "1";
+      }
+    </script>
+  </body>
 </html>
