@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merch-store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="head-main">
+      <a href="#"><img class="logo" src="media/logo.gif" alt="logo" /></a>
+      <div class="menu">
+        <a href="main.html" class="active">SHOP</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+      <div>
+        <div class="buy" id="items">
+          <div>
+            <img src="media/product1.png" alt="product1" />
+          </div>
+
+          <div>
+            <h2>Gunna Bootleg Vintage T-Shirt</h2>
+            <p>$34.95</p>
+            <p>
+              Pay in 4 interest-free installments for orders over $50.00 with
+              Klarna. <br /><a href="#" class="learn-more-link"> Learn more</a>
+            </p>
+            <p class="no-margin-bottom">Size</p>
+            <select>
+              <option value="small" selected="selected">Small</option>
+
+              <option value="medium">Medium</option>
+
+              <option value="large">Large</option>
+
+              <option value="x-large">X-Large - Sold out</option>
+            </select>
+            <p class="no-margin-bottom">Quantity</p>
+            <input
+              class="quantity"
+              type="number"
+              id="quantity"
+              name="quantity"
+              min="1"
+              max="100"
+              value="1"
+            />
+            <br />
+            <button class="to-cart">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="license">
+        <p>© 2023, Your logo</p>
+      </div>
+      <footer class="credits">
+        <a href="https://github.com/samxn"><small>Site by Samin</small></a>
+      </footer>
+    </div>
+
+    <script>
+      window.onload = function () {
+        window.setTimeout(fadeIn, 700); //.7 seconds
+      };
+
+      function fadeIn() {
+        document.getElementById("items").style.opacity = "1";
+      }
+    </script>
+  </body>
+</html>
