@@ -131,7 +131,4 @@ button:hover {
   .items {
     grid-template-columns: 1fr;
   }
-  .product-img {
-    width: 100%;
-  }
 }
