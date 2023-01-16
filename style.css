@@ -23,7 +23,7 @@ button:hover {
 .head {
   background-image: linear-gradient(
       rgba(230, 30, 30, 0.4),
-      rgba(59, 3, 3, 0.795)
+      rgba(59, 3, 3, 0.699)
     ),
     url("media/sniper.gif");
   filter: contrast(5);
