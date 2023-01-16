@@ -22,11 +22,11 @@ button:hover {
 }
 .head {
   background-image: linear-gradient(
-      rgba(30, 230, 47, 0.4),
-      rgba(6, 102, 6, 0.6)
+      rgba(230, 30, 30, 0.4),
+      rgba(59, 3, 3, 0.795)
     ),
     url("media/sniper.gif");
-  filter: contrast(4);
+  filter: contrast(5);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -50,8 +50,8 @@ button:hover {
 }
 .head-main {
   background-image: linear-gradient(
-      rgba(30, 230, 47, 0.4),
-      rgba(6, 102, 6, 0.6)
+      rgba(230, 30, 30, 0.4),
+      rgba(102, 6, 6, 0.6)
     ),
     url("media/beam.gif");
   filter: contrast(4);
