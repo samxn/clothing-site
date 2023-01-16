@@ -27,10 +27,6 @@ select {
   color: #951f1c;
 }
 .to-cart:hover {
-  margin-top: 20px;
-  width: 70%;
-  padding-top: 12px;
-  padding-bottom: 12px;
   color: brown;
   background-color: black;
   border: 1px solid brown;
