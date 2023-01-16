@@ -181,4 +181,7 @@ select {
     grid-template-columns: 1fr;
     text-align: center;
   }
+  .buy img {
+    width: 40%;
+  }
 }
