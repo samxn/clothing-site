@@ -21,36 +21,40 @@
         <a href="contact.html">CONTACT</a>
       </div>
       <div>
-        <h1 class="products">Products</h1>
-        <div class="items" id="items">
+        <div class="buy" id="items">
           <div>
-            <a href="item1.html">
-              <img src="media/product1.png" alt="product1" class="product-img"
-            /></a>
-            <a href="item1.html" class="product-link">
-              <p>Gunna Bootleg Vintage T-Shirt</p></a
-            >
-            <p>$34.95</p>
+            <img src="media/product2.png" alt="product1" />
           </div>
 
           <div>
-            <a href="item2.html">
-              <img src="media/product2.png" alt="product2" class="product-img"
-            /></a>
-            <a href="item2.html" class="product-link">
-              <p>"Carl Johnson" Bootleg Vintage T-Shirt</p></a
-            >
+            <h2>"Carl Johnson" Bootleg Vintage T-Shirt</h2>
             <p>$34.95</p>
-          </div>
+            <p>
+              Pay in 4 interest-free installments for orders over $50.00 with
+              Klarna. <br /><a href="#" class="learn-more-link"> Learn more</a>
+            </p>
+            <p class="no-margin-bottom">Size</p>
+            <select>
+              <option value="small" selected="selected">Small</option>
 
-          <div>
-            <a href="item3.html">
-              <img src="media/product3.png" alt="product3" class="product-img"
-            /></a>
-            <a href="item3.html" class="product-link">
-              <p>Diabl-O's Vintage T-Shirt</p></a
-            >
-            <p>$34.95</p>
+              <option value="medium">Medium</option>
+
+              <option value="large">Large</option>
+
+              <option value="x-large">X-Large - Sold out</option>
+            </select>
+            <p class="no-margin-bottom">Quantity</p>
+            <input
+              class="quantity"
+              type="number"
+              id="quantity"
+              name="quantity"
+              min="1"
+              max="100"
+              value="1"
+            />
+            <br />
+            <button class="to-cart">Add to cart</button>
           </div>
         </div>
       </div>
