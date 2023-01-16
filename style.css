@@ -2,7 +2,7 @@ body {
   font-family: "Orbitron", sans-serif;
 }
 button {
-  color: rgb(30, 230, 47);
+  color: black;
   padding: 5px 10px;
   font-size: 16px;
   cursor: pointer;
@@ -10,6 +10,7 @@ button {
 }
 button:hover {
   background-color: green;
+  border: 1px solid black;
 }
 
 .button {
