@@ -1,6 +1,23 @@
 body {
   font-family: "Orbitron", sans-serif;
 }
+button {
+  color: rgb(30, 230, 47);
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid green;
+}
+button:hover {
+  background-color: green;
+}
+
+.button {
+  padding-top: 10px;
+}
+.row {
+  padding-bottom: 10px;
+}
 .head {
   background-image: linear-gradient(
       rgba(30, 230, 47, 0.4),
@@ -48,6 +65,7 @@ body {
 }
 .menu {
   text-align: center;
+  padding-bottom: 70px !important;
 }
 .menu a {
   text-decoration: none;
@@ -61,6 +79,10 @@ body {
   filter: blur(1px);
   text-decoration: underline !important;
 }
+.contact-form {
+  text-align: center;
+}
+
 .products {
   text-align: center;
 }

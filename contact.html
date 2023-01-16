@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="head-main">
+      <img class="logo" src="media/logo.gif" alt="logo" />
+      <div class="menu">
+        <a href="main.html">SHOP</a>
+        <a href="contact.html" class="active">CONTACT</a>
+      </div>
+      <div>
+        <h1 class="products">Contact</h1>
+
+        <div class="contact-form">
+          <form id="contact_form" action="#">
+            <div class="row">
+              <label for="name">Name *</label><br />
+              <input
+                id="name"
+                class="input"
+                name="name"
+                type="text"
+                value=""
+                size="30"
+                required
+              /><br />
+            </div>
+            <div class="row">
+              <label for="email">Email *</label><br />
+              <input
+                id="email"
+                class="input"
+                name="email"
+                type="email"
+                value=""
+                size="30"
+                required
+              /><br />
+            </div>
+            <div class="row">
+              <label for="message">Message *</label><br />
+              <textarea
+                id="message"
+                class="input"
+                name="message"
+                rows="7"
+                cols="30"
+                required
+              ></textarea
+              ><br />
+            </div>
+            <div class="button">
+              <button>Send</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="license">
+          <p>© 2023, Your logo</p>
+        </div>
+        <footer class="credits">
+          <a href="https://github.com/samxn"><small>Site by Samin</small></a>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      window.onload = function () {
+        window.setTimeout(fadeIn, 700); //.7 seconds
+      };
+
+      function fadeIn() {
+        document.getElementById("items").style.opacity = "1";
+      }
+    </script>
+  </body>
+</html>
