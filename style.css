@@ -22,13 +22,14 @@ select {
   width: 70%;
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: black;
+  background-color: rgb(219, 159, 159);
   border: 1px solid #951f1c;
-  color: #951f1c;
+  color: #080808;
+  transition: all 0.2s ease-in-out;
 }
 .to-cart:hover {
-  color: brown;
-  background-color: black;
+  color: black;
+  background-color: rgb(153, 106, 106);
   border: 1px solid brown;
 }
 .quantity {
